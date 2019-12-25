@@ -7,7 +7,6 @@ def oxford_comma(array)
     last.join(" and ")
     rest = array.slice(0, array.length - 3)
     rest.join(", ")
-    final = rest + last
-    return final
+    return rest + last
   end
 end
