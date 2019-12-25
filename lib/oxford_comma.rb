@@ -6,7 +6,7 @@ def oxford_comma(array)
     last = array.slice(array.length - 2, array.length - 1)
     last_string = last.join(" and ")
     if array.length == 3
-      rest = array[0]
+      rest = [array[0], array[1]
     else 
       rest = array.slice(0, array.length - 3)
     end
