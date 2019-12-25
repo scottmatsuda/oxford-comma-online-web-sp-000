@@ -11,7 +11,6 @@ def oxford_comma(array)
       rest = array.slice(0, array.length - 3)
     end
     rest_string = rest.join(", ")
-    puts "rest_string": rest_string
-    
+    return final_string = rest_string + last_string
   end
 end
